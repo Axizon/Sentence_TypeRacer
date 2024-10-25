@@ -77,7 +77,7 @@ class Excerpt {
     text(finished, 50, 50);
     fill(#0085CF);
     text(finished, 50, 50);
-  }//This is possibly the most hideous function I've ever written
+  }
   
   boolean isDone() {
     if (completed == words.length) {

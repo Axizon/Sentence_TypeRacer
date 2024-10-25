@@ -128,7 +128,7 @@ void draw() {
   if (!playing) {
     text("PAUSED - Click to Resume", 50, 175);
   }//DISPLAYS PAUSE INFO
-}//Readability of this code is -99999.
+}
 
 void keyPressed() {
   if (key == CODED) {

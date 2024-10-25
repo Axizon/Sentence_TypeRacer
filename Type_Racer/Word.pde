@@ -12,39 +12,6 @@ class Word {
     next = 0;
   }
   
-  //void findNext(String test) {
-  //  boolean assigned = false;
-  //  testChar = test.toCharArray();
-  //  int shortend; 
-  //  if (testChar.length < masterChar.length) {
-  //    shortend = testChar.length;
-  //  }
-  //  else {
-  //    shortend = masterChar.length;
-  //  }
-  //  if (shortend != masterChar.length) {
-  //    for (int i = 0; i < shortend; i++) {
-  //      if (testChar[i] != masterChar[i]) {
-  //        next = i;
-  //        assigned = true;
-  //      }
-  //    }
-  //    if (!assigned) {
-  //      next = shortend;
-  //    }
-  //  }
-  //  else {
-  //    for (int i = 0; i < masterChar.length; i++) {
-  //      if (testChar[i] != masterChar[i]) {
-  //        next = i;
-  //      }
-  //      else {
-  //        next = -1;
-  //      }
-  //    }
-  //  }
-  //} THIS CODE SHOULD NEVER BE ALLOWED TO SEE THE LIGHT OF DAY
-  
   void findNext(String test) {
     testChar = test.toCharArray();
     if (testChar.length == 0) {
@@ -88,7 +55,7 @@ class Word {
         }
       }
     }
-  }//This code is pretty atrocious too
+  }
   
   boolean isCorrect() {
     if (next == -1) {
