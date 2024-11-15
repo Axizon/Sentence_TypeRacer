@@ -1,7 +1,7 @@
 # Sentence_TypeRacer
 
 ## Description
-This project is a simple single-sentence typing test developed in Java using the Processing Sketchbook. It takes heavy inspiration from [Monkeytype](https://monkeytype.com/). It leverages an object-oriented design to break down sentences and handle correctness. Originally written in 2022.
+This is a simple single-sentence typing test developed in Java using the Processing Sketchbook. It takes heavy inspiration from [Monkeytype](https://monkeytype.com/). It leverages an object-oriented design to break down sentences and handle correctness. Originally written in 2022.
 
 
 ## Features
